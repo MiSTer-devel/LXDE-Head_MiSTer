@@ -1,0 +1,55 @@
+{ "" "" "" "RST port on the PLL is not properly connected on instance pll:pll\|pll_0002:pll_inst\|altera_pll:altera_pll_i\|general\[0\].gpll. The reset port on the PLL should be connected. If the PLL loses lock for any reason, you might need to manually reset the PLL in order to re-establish lock to the reference clock." {  } {  } 0 0 "" 0 0 "Design Software" 0 -1 0 ""}
+{ "" "" "" "LOCKED port on the PLL is not properly connected on instance \"pll:pll\|pll_0002:pll_inst\|altera_pll:altera_pll_i\|general\[0\].gpll\". The LOCKED port on the PLL should be connected when the FBOUTCLK port is connected. Although it is unnecessary to connect the LOCKED signal, any logic driven off of an output clock of the PLL will not know when the PLL is locked and ready." {  } {  } 0 21300 "" 0 0 "Design Software" 0 -1 0 ""}
+{ "" "" "" "Verilog HDL assignment warning at altera_merlin_burst_adapter_13_1.sv(794): truncated value with size 10 to match size of target (9)" {  } {  } 0 10230 "" 0 0 "Design Software" 0 -1 0 ""}
+{ "" "" "" "Verilog HDL or VHDL warning at soc_system_mm_interconnect_0_router.sv(154): object \"address\" assigned a value but never read" {  } {  } 0 10036 "" 0 0 "Design Software" 0 -1 0 ""}
+{ "" "" "" "Variable or input pin \"data_b\" is defined but never used." {  } {  } 0 287013 "" 0 0 "Design Software" 0 -1 0 ""}
+{ "" "" "" "Soc_system.soc_system: Module dependency loop involving: \"Framereader\" (alt_vip_vfr 14.0), \"HPS\" (altera_hps_lite 17.0)" {  } {  } 0 12251 "" 0 0 "Design Software" 0 -1 0 ""}
+{ "" "" "" "Soc_system.Framereader: Interrupt sender Framereader.interrupt_sender is not connected to an interrupt receiver" {  } {  } 0 12251 "" 0 0 "Design Software" 0 -1 0 ""}
+{ "" "" "" "LOCKED port on the PLL is not properly connected on instance \"soc_system:soc\|soc_system_PLL:pll\|altera_pll:altera_pll_i\|general\[0\].gpll\". The LOCKED port on the PLL should be connected when the FBOUTCLK port is connected. Although it is unnecessary to connect the LOCKED signal, any logic driven off of an output clock of the PLL will not know when the PLL is locked and ready." {  } {  } 0 21300 "" 0 0 "Design Software" 0 -1 0 ""}
+{ "" "" "" "Soc_system.PLL: Able to implement PLL - Actual settings differ from Requested settings" {  } {  } 0 12251 "" 0 0 "Design Software" 0 -1 0 ""}
+{ "" "" "" "Soc_system.Framereader: Interrupt sender Framereader.control_interrupt is not connected to an interrupt receiver" {  } {  } 0 12251 "" 0 0 "Design Software" 0 -1 0 ""}
+{ "" "" "" "Soc_system.Output: Interrupt sender Output.status_update_irq is not connected to an interrupt receiver" {  } {  } 0 12251 "" 0 0 "Design Software" 0 -1 0 ""}
+{ "" "" "" "Port \"reset_value\" on the entity instantiation of \"h_counter\" is connected to a signal of width 32. The formal width of the signal in the module is 16.  The extra bits will be ignored." {  } {  } 0 12020 "" 0 0 "Design Software" 0 -1 0 ""}
+{ "" "" "" "Port \"genlock_enable\" on the entity instantiation of \"mode_banks\" is connected to a signal of width 2. The formal width of the signal in the module is 1.  The extra bits will be left dangling without any fan-out logic." {  } {  } 0 12030 "" 0 0 "Design Software" 0 -1 0 ""}
+{ "" "" "" "Soc_system.soc_system: Module dependency loop involving: \"HPS\" (altera_hps_lite 17.0)" {  } {  } 0 12251 "" 0 0 "Design Software" 0 -1 0 ""}
+{ "" "" "" "Port \"trs\" on the entity instantiation of \"statemachine\" is connected to a signal of width 2. The formal width of the signal in the module is 1.  The extra bits will be ignored." {  } {  } 0 12020 "" 0 0 "Design Software" 0 -1 0 ""}
+{ "" "" "" "3 Weak Pull-Up Resistor assignments found for BTN_RESET. Only the one assigned to BTN_RESET will take effect." {  } {  } 0 169156 "" 0 0 "Design Software" 0 -1 0 ""}
+{ "" "" "" "Soc_system.soc_system: Module dependency loop involving: \"hps_0\" (altera_hps_lite 17.0)" {  } {  } 0 12251 "" 0 0 "Design Software" 0 -1 0 ""}
+{ "" "" "" "Soc_system.Mixer: The MixerII register map changed in ACDS v16.0. Please refer to the VIP User Guide for details." {  } {  } 0 12251 "" 0 0 "Design Software" 0 -1 0 ""}
+{ "" "" "" "Soc_system.audio_pll: Able to implement PLL - Actual settings differ from Requested settings" {  } {  } 0 12251 "" 0 0 "Design Software" 0 -1 0 ""}
+{ "" "" "" "LOCKED port on the PLL is not properly connected on instance \"soc_system:soc\|soc_system_hdmi_pll:hdmi_pll\|altera_pll:altera_pll_i\|general\[0\].gpll\". The LOCKED port on the PLL should be connected when the FBOUTCLK port is connected. Although it is unnecessary to connect the LOCKED signal, any logic driven off of an output clock of the PLL will not know when the PLL is locked and ready." {  } {  } 0 21300 "" 0 0 "Design Software" 0 -1 0 ""}
+{ "" "" "" "LOCKED port on the PLL is not properly connected on instance \"soc_system:soc\|soc_system_audio_pll:audio_pll\|altera_pll:altera_pll_i\|general\[0\].gpll\". The LOCKED port on the PLL should be connected when the FBOUTCLK port is connected. Although it is unnecessary to connect the LOCKED signal, any logic driven off of an output clock of the PLL will not know when the PLL is locked and ready." {  } {  } 0 21300 "" 0 0 "Design Software" 0 -1 0 ""}
+{ "" "" "" "Verilog HDL assignment warning at altera_merlin_apb_slave_agent.sv(196): truncated value with size 21 to match size of target (5)" {  } {  } 0 10230 "" 0 0 "Design Software" 0 -1 0 ""}
+{ "" "" "" "Variable or input pin \"data_a\" is defined but never used." {  } {  } 0 287013 "" 0 0 "Design Software" 0 -1 0 ""}
+{ "" "" "" "Soc_system.soc_system: Module dependency loop involving: \"clock_bridge_0\" (altera_clock_bridge 17.0), \"hps_0\" (altera_hps_lite 17.0)" {  } {  } 0 12251 "" 0 0 "Design Software" 0 -1 0 ""}
+{ "" "" "" "Soc_system.Output.control: Interrupt sender control.av_mm_control_interrupt is not connected to an interrupt receiver" {  } {  } 0 12251 "" 0 0 "Design Software" 0 -1 0 ""}
+{ "" "" "" "Quartus_synth: A Duplicate file was overwritten with path: altera_pll_reconfig_top.v" {  } {  } 0 12251 "" 0 0 "Design Software" 0 -1 0 ""}
+{ "" "" "" "Entity \"altera_std_synchronizer\" obtained from \"db/ip/soc_system/submodules/altera_std_synchronizer.v\" instead of from Quartus Prime megafunction library" {  } {  } 0 12090 "" 0 0 "Design Software" 0 -1 0 ""}
+{ "" "" "" "Port \"extclk\" on the entity instantiation of \"cyclonev_pll\" is connected to a signal of width 1. The formal width of the signal in the module is 2.  The extra bits will be left dangling without any fan-out logic." {  } {  } 0 12030 "" 0 0 "Design Software" 0 -1 0 ""}
+{ "" "" "" "Can't find Memory Initialization File or Hexadecimal (Intel-Format) File C:/Work/DE10/AV_MiSTer/initial_data.mif -- setting all initial values to 0" {  } {  } 0 127003 "" 0 0 "Design Software" 0 -1 0 ""}
+{ "" "" "" "LOCKED port on the PLL is not properly connected on instance \"soc_system:soc\|soc_system_sd_pll:sd_pll\|altera_pll:altera_pll_i\|general\[0\].gpll\". The LOCKED port on the PLL should be connected when the FBOUTCLK port is connected. Although it is unnecessary to connect the LOCKED signal, any logic driven off of an output clock of the PLL will not know when the PLL is locked and ready." {  } {  } 0 21300 "" 0 0 "Design Software" 0 -1 0 ""}
+{ "" "" "" "alt_vipitc131_cvo.sdc" {  } {  } 0 9999 "" 0 0 "Design Software" 0 -1 0 ""}
+{ "" "" "" "alt_vipitc131_is2vid.sv" {  } {  } 0 9999 "" 0 0 "Design Software" 0 -1 0 ""}
+{ "" "" "" "alt_vipvfr131_vfr_control_packet_encoder.v" {  } {  } 0 9999 "" 0 0 "Design Software" 0 -1 0 ""}
+{ "" "" "" "alt_vipvfr131_common_avalon_mm_slave.v" {  } {  } 0 9999 "" 0 0 "Design Software" 0 -1 0 ""}
+{ "" "" "" "alt_vipvfr131_common_ram_fifo.vhd" {  } {  } 0 9999 "" 0 0 "Design Software" 0 -1 0 ""}
+{ "" "" "" "alt_vipvfr131_common_gray_clock_crosser.vhd" {  } {  } 0 9999 "" 0 0 "Design Software" 0 -1 0 ""}
+{ "" "" "" "alt_vipvfr131_common_general_fifo.vhd" {  } {  } 0 9999 "" 0 0 "Design Software" 0 -1 0 ""}
+{ "" "" "" "alt_vipvfr131_common_avalon_mm_bursting_master_fifo.vhd" {  } {  } 0 9999 "" 0 0 "Design Software" 0 -1 0 ""}
+{ "" "" "" "alt_vipvfr131_prc.v" {  } {  } 0 9999 "" 0 0 "Design Software" 0 -1 0 ""}
+{ "" "" "" "alt_vipvfr131_prc_read_master.v" {  } {  } 0 9999 "" 0 0 "Design Software" 0 -1 0 ""}
+{ "" "" "" "alt_vipitc131_is2vid_mode_banks.sv" {  } {  } 0 9999 "" 0 0 "Design Software" 0 -1 0 ""}
+{ "" "" "" "alt_vipitc131_common_sync_generation.v" {  } {  } 0 9999 "" 0 0 "Design Software" 0 -1 0 ""}
+{ "" "" "" "alt_vip_cvo_mode_banks.sv" {  } {  } 0 9999 "" 0 0 "Design Software" 0 -1 0 ""}
+{ "" "" "" "alt_vip_common_frame_counter.v" {  } {  } 0 9999 "" 0 0 "Design Software" 0 -1 0 ""}
+{ "" "" "" "genlock_enable_sync" {  } {  } 0 9999 "" 0 0 "Design Software" 0 -1 0 ""}
+{ "" "" "" "u_calculate_mode" {  } {  } 0 9999 "" 0 0 "Design Software" 0 -1 0 ""}
+{ "" "" "" "alt_vip_cvo_core.sdc" {  } {  } 0 9999 "" 0 0 "Design Software" 0 -1 0 ""}
+{ "" "" "" "alt_vip_packet_transfer.sdc" {  } {  } 0 9999 "" 0 0 "Design Software" 0 -1 0 ""}
+{ "" "" "" "alt_vip_common_dc_mixed_widths_fifo.sdc" {  } {  } 0 9999 "" 0 0 "Design Software" 0 -1 0 ""}
+{ "" "" "" "soc_system_HPS_fpga_interfaces.sdc" {  } {  } 0 9999 "" 0 0 "Design Software" 0 -1 0 ""}
+{ "" "" "" "soc_system_hps_0_fpga_interfaces.sdc" {  } {  } 0 9999 "" 0 0 "Design Software" 0 -1 0 ""}
+{ "" "" "" "altera_pll.v" {  } {  } 0 9999 "" 0 0 "Design Software" 0 -1 0 ""}
+{ "" "" "" "altera_cyclonev_pll.v" {  } {  } 0 9999 "" 0 0 "Design Software" 0 -1 0 ""}
+{ "" "" "" "altera_pll_reconfig_core.v" {  } {  } 0 9999 "" 0 0 "Design Software" 0 -1 0 ""}
+{ "" "" "" "cvo_core" {  } {  } 0 9999 "" 0 0 "Design Software" 0 -1 0 ""}
